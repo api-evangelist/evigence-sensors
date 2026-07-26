@@ -1,8 +1,18 @@
 aid: evigence-sensors
 name: Evigence Sensors
-description: Evigence Sensors is a company surfaced as a portfolio company of battery-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Evigence Sensors is a freshness-management technology company for the food
+  industry, combining low-cost physical sensors with data analytics to monitor
+  food quality in real time from production to consumption at the individual
+  item level. Its time-temperature indicator technology powers both digital
+  (QR-scan) and visual freshness indicators applied to retail units, serving
+  food brands, retailers, foodservice operators, cold-chain logistics providers,
+  and consumers across the supply chain. Evigence holds 27 granted patents and
+  its indicators meet WHO time/temperature monitoring standards. The company was
+  surfaced as a portfolio company of Battery Ventures and added to the API
+  Evangelist network. As of this enrichment pass Evigence publishes no public
+  developer portal, API documentation, SDK, or machine-readable API surface;
+  this profile captures its verified public company properties only.
 url: https://raw.githubusercontent.com/api-evangelist/evigence-sensors/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,51 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Food Technology
+- Freshness Monitoring
+- Cold Chain
+- Sensors
+- IoT
+- Supply Chain
+- Food Safety
+image: https://www.evigence.com/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/evigence-sensors-domain-security.yml
+- type: Website
+  url: https://www.evigence.com
+- type: Blog
+  url: https://www.evigence.com/all-blogs
+- type: Support
+  url: https://www.evigence.com/contact
+- type: PrivacyPolicy
+  url: https://www.evigence.com/privacy-policy
+- type: TermsOfService
+  url: https://www.evigence.com/terms-of-use
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
